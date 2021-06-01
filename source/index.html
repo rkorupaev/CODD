@@ -20,7 +20,11 @@
     <include src="build/img/sprite.svg"></include>
   </div>
   <header class="main-header container">
-    <a class="main-header__logo-link" href="index.html"><img src="img/logo.png" width="77" height="18"></a>
+    <a class="main-header__logo-link" href="index.html">
+      <svg width="77" height="18" viewBox="0 0 77 18" fill="none">
+        <use xlink:href="#logo"></use>
+      </svg>
+    </a>
     <h1 class="main-header__title">Сила сторителлинга в отчетах устойчивого развития</h1>
     <div class="main-header__goals">
       <ul class="main-header__goals-list goals-list">
@@ -38,6 +42,26 @@
       </svg>
     </button>
   </header>
+  <main class="main-body container">
+    <div class="main-body__sidebar sidebar">
+      <svg class="sidebar__logo" width="77" height="18" viewBox="0 0 77 18" fill="none">
+        <use xlink:href="#logo_black"></use>
+      </svg>
+      <ul class="sidebar__article-list article-list">
+        <li class="article-list__item"><a href="#">Отчет, о котором узнают все</a></li>
+        <li class="article-list__item"><a href="#">Что мешает традиционному отчету выйти на широкую аудиторию?</a></li>
+        <li class="article-list__item"><a href="#">Как сделать так, чтобы отчет увидело много людей?</a></li>
+        <li class="article-list__item"><a href="#">То есть вместо подробного отчета — красивые истории? А как же стандарты?</a></li>
+        <li class="article-list__item"><a href="#">Насколько это распространенная практика?</a></li>
+        <li class="article-list__item"><a href="#">Какова будет отдача от такого отчета?</a></li>
+        <li class="article-list__item"><a href="#">Что можно сделать в «Дорогой редакции»?</a></li>
+        <li class="article-list__item"><a href="#">Почему именно «Дорогая редакция»?</a></li>
+      </ul>
+    </div>
+    <div class="main-body__content content">
+      <a href="#order-page" class="content__button">заказать презентацию</a>
+    </div>
+  </main>
 
 </div>
 </body>

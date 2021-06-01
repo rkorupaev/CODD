@@ -1,0 +1,19 @@
+.content__button {
+  display: flex;
+  width: 189px;
+  height: 42px;
+  border: 1px solid $green;
+  border-radius: 50px;
+  text-transform: capitalize;
+  margin-left: auto;
+  transition-duration: 0.3s;
+
+  &:hover,
+  &:focus {
+    box-shadow: 0px 0px 19px 0px rgba(50, 50, 50, 0.7);
+  }
+
+  &:focus {
+    box-shadow: 0px 0px 28px 0px rgba(50, 50, 50, 0.31);
+  }
+}
