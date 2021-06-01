@@ -1,0 +1,17 @@
+.goals-list {
+  display: flex;
+  color: $black;
+  list-style: none;
+}
+
+.goals-list__item {
+  min-height: 80px;
+}
+
+.goals-list__numbers {
+  font-family: $side-text;
+  font-weight: normal;
+  font-size: 80px;
+  line-height: 80px;
+  margin-right: 5px;
+}

@@ -1,0 +1,100 @@
+body {
+  font-family: $font-primary;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  display: flex;
+
+  width: 100%;
+  height: 100%;
+
+  text-decoration: none;
+
+  color: inherit;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.body-container {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.verticals-paddings {
+  padding: 120px 0;
+}
+
+.container {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media (max-width: $tablet-only) {
+  .verticals-paddings {
+    padding: 100px 0;
+  }
+
+  .container {
+    padding-right: 45px;
+    padding-left: 45px;
+  }
+}
+
+@media (max-width: $mobile-only) {
+  .verticals-paddings {
+    padding: 70px 0;
+  }
+
+  .container {
+    padding-right: 15px;
+    padding-left: 15px;
+
+    &--mobile {
+      padding-right: 0;
+      padding-left: 0;
+    }
+  }
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 5s;
+}
+
+.unfade {
+  animation-name: unfade;
+  animation-duration: 2s;
+}
+
+.hidden {
+  display: none;
+}
+
+.rotate {
+  transform: rotate(180deg);
+}
+
+.popup {
+  animation-name: popup;
+  animation-duration: 0.7s;
+}
