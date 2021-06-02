@@ -20,11 +20,19 @@
     <include src="build/img/sprite.svg"></include>
   </div>
   <header class="main-header container">
-    <a class="main-header__logo-link" href="index.html">
-      <svg width="77" height="18" viewBox="0 0 77 18" fill="none">
-        <use xlink:href="#logo"></use>
-      </svg>
-    </a>
+    <div class="main-header__nav-wrapper">
+      <a class="main-header__logo-link main-header__logo-link--desktop" href="index.html">
+        <svg width="77" height="18" viewBox="0 0 77 18" fill="none">
+          <use xlink:href="#logo"></use>
+        </svg>
+      </a>
+      <a class="main-header__logo-link main-header__logo-link--mobile" href="index.html">
+        <svg width="38" height="20" viewBox="0 0 38 20" fill="none">
+          <use xlink:href="#crown"></use>
+        </svg>
+      </a>
+      <a href="#order-page" class="main-header__order-button order-button order-button__header">заказать презентацию</a>
+    </div>
     <h1 class="main-header__title">Сила сторителлинга в отчетах устойчивого развития</h1>
     <div class="main-header__goals">
       <ul class="main-header__goals-list goals-list">
@@ -60,7 +68,7 @@
       </ul>
     </div>
     <section class="main-body__content content">
-      <a href="#order-page" class="content__button">заказать презентацию</a>
+      <a href="#order-page" class="content__button order-button">заказать презентацию</a>
       <ul class="content__card-list card-list">
         <li class="card-list__item">
           <h2 class="card-list__title">Отчет, о котором узнают все</h2>
@@ -213,7 +221,8 @@
           <p class="card-list__text">«Дорогая редакция» обладает наиболее сильными в России компетенциями на стыке медиа
             и корпоративных коммуникаций (внешних и внутренних). Лучшие кейсы сделаны у нас. В команде —
             сертифицированные эксперты по GRI Standards и ESG.</p>
-          <p class="card-list__text">С 2010 года мы работаем с лидерами российского корпоративного сектора: <span class="card-list__span">«Сбер»,
+          <p class="card-list__text">С 2010 года мы работаем с лидерами российского корпоративного сектора: <span
+            class="card-list__span">«Сбер»,
             Coca-Cola и HBC, «Яндекс», Samsung, BMW Group, «Ситилинк», «Очаково», «Лаборатория Касперского», «М.Видео»,
             «ВымпелКом», Abbott, Pernod Ricard</span> и др.</p>
         </li>

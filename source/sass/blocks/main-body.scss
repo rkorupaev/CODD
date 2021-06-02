@@ -15,3 +15,15 @@
   min-height: 500px;
   width: 813px;
 }
+
+@media (max-width: $tablet-only) {
+  .main-body__sidebar {
+    display: none;
+  }
+
+  .main-body__content {
+    padding-top: 80px;
+    min-height: 500px;
+    width: 375px;
+  }
+}

@@ -15,3 +15,15 @@
   line-height: 80px;
   margin-right: 5px;
 }
+
+@media (max-width: $tablet-only) {
+  .goals-list {
+    flex-direction: column;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .goals-list__numbers {
+    font-size: 60px;
+  }
+}
