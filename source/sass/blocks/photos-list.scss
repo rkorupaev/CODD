@@ -1,0 +1,41 @@
+.photos-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 80px;
+}
+
+.photos-list__item {
+  margin-bottom: 40px;
+
+  &:nth-child(odd) {
+    margin-right: 40px;
+  }
+}
+
+.photos-list__image {
+  display: block;
+  width: 347px;
+  height: 347px;
+  background-color: $grey-photo-background;
+  margin-bottom: 24px;
+}
+
+.photos-list__link {
+  display: inline-block;
+  width: 250px;
+  font-family: $font-primary;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  height: auto;
+
+  &:hover,
+  &:focus {
+    opacity: 0.7;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
+}

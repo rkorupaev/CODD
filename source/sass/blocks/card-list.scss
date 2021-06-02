@@ -1,0 +1,62 @@
+.card-list {
+  list-style: none;
+  margin-top: 62px;
+}
+
+.card-list__item {
+  width: 540px;
+  margin-bottom: 120px;
+  padding-left: 136px;
+
+  &--photos {
+    background-color: $pink;
+    width: 774px;
+    padding-top: 120px;
+    padding-left: 39px;
+  }
+}
+
+.card-list__title {
+  font-family: $font-primary;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 44px;
+  width: 401px;
+  margin: 0;
+  margin-bottom: 40px;
+
+  &--photo {
+    margin-left: 97px;
+  }
+}
+
+.card-list__text {
+  margin-bottom: 40px;
+
+  font-family: $side-text;
+  font-size: 18px;
+  line-height: 24px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.card-list__subtitle {
+  margin: 0;
+  margin-bottom: 24px;
+  width: 375px;
+
+  font-family: $font-primary;
+  font-size: 24px;
+  line-height: 28px;
+
+  &--photo {
+    margin-left: 97px;
+    width: 540px;
+  }
+}
+
+.card-list__span {
+  color: $text-blue;
+}

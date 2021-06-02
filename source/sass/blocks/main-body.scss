@@ -4,7 +4,7 @@
 
 .main-body__sidebar {
   background-color: $green;
-  width: 387px;
+  width: 347px;
   min-height: 680px;
   padding-top: 14px;
   padding-left: 40px;
@@ -13,7 +13,5 @@
 .main-body__content {
   padding-top: 14px;
   min-height: 500px;
-  flex-grow: 1;
-  padding-right: 40px;
-  padding-left: 136px;
+  width: 813px;
 }
