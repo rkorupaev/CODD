@@ -39,3 +39,10 @@
     opacity: 0.3;
   }
 }
+
+@media (max-width: $tablet-only) {
+  .photos-list__image {
+    width: 335px;
+    height: 335px;
+  }
+}

@@ -60,3 +60,42 @@
 .card-list__span {
   color: $text-blue;
 }
+
+
+@media (max-width: $tablet-only) {
+  .card-list {
+    margin-top: 0px;
+  }
+
+  .card-list__item {
+    width: 335px;
+    margin-bottom: 80px;
+    padding-left: 20px;
+
+    &--photos {
+      width: 335px;
+      padding-top: 120px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+
+  .card-list__title {
+    font-size: 36px;
+    line-height: 40px;
+    width: 100%;
+
+    &--photo {
+      margin-left: 0px;
+    }
+  }
+
+  .card-list__subtitle {
+    width: 335px;
+
+    &--photo {
+      margin-left: 0px;
+      width: 335px;
+    }
+  }
+}
